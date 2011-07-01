@@ -1,0 +1,35 @@
+
+vimfiles: Steven Lee's Vim Config
+=================================
+
+This config script is inspired by many Vim Gurus, especailly thanks to Steve
+Francia (steve.francia@gmail.com), since this script is based on his work on
+[spf13-vim](https://github.com/spf13/spf13-vim). I only do small changes in
+order to suit my work. Mostly important, I could learn much more of vim
+knowledge from them - Vim Guru. In addition, I need to thank other folks,
+might or might not, mentioned below:
+
+* Peter Odding (peter@peterodding.com): <http://peterodding.com/code/vim/>
+
+
+Install
+-------
+
+So far I work with Windows XP in my daily work. Maybe someday I'll move to
+Linux/Solaris machine. Even with Windows XP, Cygwin is my preference. So this
+script support cross platform, i.e. Windows, Cygwin/Unix.
+
+###Windows
+
+1.  cd $HOME
+2.  git clone git://github.com/stevenl/vimfiles.git
+3.  copy vimfiles\vimrc_liner.vim _vimrc
+
+###Cygwin or Unix
+
+1.  cd $HOME
+2.  git clone git://github.com/stevenl/vimfiles.git ~/.vim
+3.  ln -s ~/.vim/vimrc_liner.vim .vimrc
+
+
+
