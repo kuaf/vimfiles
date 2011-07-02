@@ -24,12 +24,32 @@ script support cross platform, i.e. Windows, Cygwin/Unix.
 1.  cd $HOME
 2.  git clone git://github.com/stevenl/vimfiles.git
 3.  copy vimfiles\vimrc_liner.vim _vimrc
+4.  cd vimfiles
+5.  git submodule init
+6.  git submodule update
+
 
 ###Cygwin or Unix
 
 1.  cd $HOME
 2.  git clone git://github.com/stevenl/vimfiles.git ~/.vim
 3.  ln -s ~/.vim/vimrc_liner.vim .vimrc
+4.  cd .vim
+5.  git submodule init
+6.  git submodule update
+
+
+Upgrade
+-------
+
+1.  cd $HOME/.vim (*nix) or cd $HOME/vimfiles (Windows)
+2.  git pull
+3.  git submodule sync
+4.  git submodule update --init --recursive
+
+
+
+
 
 
 
