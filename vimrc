@@ -1,6 +1,6 @@
 " Vim profile
 " Author: yal <kuaf.lee@gmail.com>
-" Last Change: July 1, 2011
+" Last Change: July 9, 2011
 "
 " This script is inspired by Vim Guru, special thanks to
 " - Steve Francia <steve.francia@gmail.com> (https://github.com/spf13/spf13-vim)
@@ -40,8 +40,8 @@ set history=1000  " Store a ton of history (default is 20)
 
 " Setting up the directories {{{2
 set backup
-set backupdir=~/tmp
-set directory=~/tmp
+set backupdir=$HOME/tmp
+set directory=$HOME/tmp
 "set viewdir=~/.vim/view
 "au BufWinLeave * silent! mkview  "make vim save view (state) (folds, cursor, etc)
 "au BufWinEnter * silent! loadview  "make vim load view (state) (folds, cursor, etc)
