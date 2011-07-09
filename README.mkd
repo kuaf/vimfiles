@@ -43,9 +43,9 @@ Upgrade
 -------
 
 1.  cd $HOME/.vim (*nix) or cd $HOME/vimfiles (Windows)
-2.  git pull
-3.  git submodule sync
-4.  git submodule update --init --recursive
+2.  git pull origin master
+3.  git submodule update
+4.  git submodule foreach git pull origin master
 
 
 
