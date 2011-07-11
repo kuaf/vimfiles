@@ -1,6 +1,6 @@
 " Vim profile
 " Author: yal <kuaf.lee@gmail.com>
-" Last Change: July 9, 2011
+" Last Change: July 10, 2011
 "
 " This script is inspired by Vim Guru, special thanks to
 " - Steve Francia <steve.francia@gmail.com> (https://github.com/spf13/spf13-vim)
@@ -199,7 +199,10 @@ nmap <leader>O O<Esc>
 " Solarized {{{2
 
 call togglebg#map("<F5>")
-let g:solarized_contrast='high'
+"let g:solarized_contrast='high'
+let g:solarized_termcolors=256
+
+
 
 " Vim-fakeclip {{{2
 
