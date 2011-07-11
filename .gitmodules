@@ -4,3 +4,6 @@
 [submodule "bundle/vim-markdown-ext"]
 	path = bundle/vim-markdown-ext
 	url = git@github.com:stevenl/vim-markdown-ext.git
+[submodule "bundle/vim-fakeclip"]
+	path = bundle/vim-fakeclip
+	url = https://github.com/kana/vim-fakeclip.git
